@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "822918293647",
+    "firebase_url": "https://wacker-2d39a.firebaseio.com",
+    "project_id": "wacker-2d39a",
+    "storage_bucket": "wacker-2d39a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822918293647:android:3a5094308535aa1dce68fa",
+        "android_client_info": {
+          "package_name": "com.devco.singhal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822918293647-q4ll3o126pu244ipkav3c6dggi152cis.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devco.singhal",
+            "certificate_hash": "b6845f62d168c822e66a460653f1b0cc641967ea"
+          }
+        },
+        {
+          "client_id": "822918293647-1jvm1d0pt124em8dlgcqbko5m62pebbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDE-GJBpCB_EwTit0JUHa8svIUb8vi-68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822918293647-1jvm1d0pt124em8dlgcqbko5m62pebbr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7CE6E6E6"
+    tools:context=".ProductDetails">
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/add_to_cart_btn">
+
+        <RelativeLayout
+            android:id="@+id/product_details_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/product_image_details"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:background="#fff"
+                app:sliderAnimationDuration="600"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderIndicatorAnimationDuration="600"
+                app:sliderIndicatorEnabled="true"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMargin="15dp"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="3dp"
+                app:sliderIndicatorRadius="2dp"
+                app:sliderIndicatorSelectedColor="#5A5A5A"
+                app:sliderIndicatorUnselectedColor="#FFF"
+                app:sliderScrollTimeInSec="1" />
+
+            <com.like.LikeButton
+                android:id="@+id/product_details_save"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/heart_background"
+                android:elevation="50dp"
+                app:icon_size="8dp"
+                app:icon_type="heart" />
+
+            <RelativeLayout
+                android:id="@+id/product_details_layout_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_image_details"
+                android:background="@drawable/side_nav_bar">
+
+                <TextView
+                    android:id="@+id/Product_name_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="Product Name"
+                    android:textColor="#000"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Product_price_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Product_name_details"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Product Price"
+                    android:textColor="#0E7C0E"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/product_quantity_details_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_details_layout_2"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Quantity :"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                android:id="@+id/number_btn"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/product_details_layout_2"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                app:backGroundColor="#7CE6E6E6"
+                app:finalNumber="100"
+                app:initialNumber="1"
+                app:textColor="#000"
+                app:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/Product_description_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_quantity_details_txt"
+                android:layout_marginTop="20dp"
+                android:background="#fff"
+                android:padding="10dp"
+                android:text="Product Description"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/add_to_cart_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:elevation="6dp"
+        android:text="Add to Cart"
+        android:textColor="#fff" />
+
+    <ProgressBar
+        android:id="@+id/loadingbarproductdetails"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/Product_cannot_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="*You already have a pending order\nYou can order as soon as your previous order is delivered"
+        android:textAlignment="center"
+        android:textColor="#ff00"
+        android:visibility="invisible" />
+</RelativeLayout>

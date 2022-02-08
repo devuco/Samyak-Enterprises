@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PendingOrderFrag">
+
+    <RelativeLayout
+        android:id="@+id/rl4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_rectangle"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/user_order_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Total Price"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_order_total_price"
+            android:layout_margin="5dp"
+            android:text="Status"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <com.baoyachi.stepview.VerticalStepView
+            android:id="@+id/step_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/status"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:id="@+id/user_order_address_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/step_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Address and City"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user_order_date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_order_address_city"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="date and time"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/user_order_show_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_order_date_time"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#fff"
+            android:padding="10dp"
+            android:text="View Products Ordered"
+            android:textColor="@color/colorPrimaryDark" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/empty_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No Pending Orders\nIt's Time to go Shopping"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,126 @@
+com/devco/singhal/tools/Prevalent.java
+ com.devco.singhal.tools.Prevalent
+com/devco/singhal/HomeFrag.java
+ com.devco.singhal.HomeFrag
+ com.devco.singhal.HomeFrag$1
+ com.devco.singhal.HomeFrag$2
+com/devco/singhal/models/Products.java
+ com.devco.singhal.models.Products
+com/devco/singhal/CategoriesFragment.java
+ com.devco.singhal.CategoriesFragment
+ com.devco.singhal.CategoriesFragment$1
+com/devco/singhal/ServiceFrag.java
+ com.devco.singhal.ServiceFrag
+com/devco/singhal/models/ModelCategory.java
+ com.devco.singhal.models.ModelCategory
+com/devco/singhal/adapters/SearchAdapter.java
+ com.devco.singhal.adapters.SearchAdapter
+ com.devco.singhal.adapters.SearchAdapter$Viewholder
+com/devco/singhal/ChangePassword.java
+ com.devco.singhal.ChangePassword
+ com.devco.singhal.ChangePassword$1
+com/devco/singhal/ContactUs.java
+ com.devco.singhal.ContactUs
+com/devco/singhal/SearchProducts.java
+ com.devco.singhal.SearchProducts
+ com.devco.singhal.SearchProducts$1
+ com.devco.singhal.SearchProducts$2
+com/devco/singhal/adapters/BannerAdapter.java
+ com.devco.singhal.adapters.BannerAdapter
+ com.devco.singhal.adapters.BannerAdapter$SliderAdapterVH
+com/devco/singhal/adapters/CategoryAdapter.java
+ com.devco.singhal.adapters.CategoryAdapter
+ com.devco.singhal.adapters.CategoryAdapter$ViewHolder
+com/devco/singhal/adapters/SaveAdapter.java
+ com.devco.singhal.adapters.SaveAdapter
+ com.devco.singhal.adapters.SaveAdapter$ViewHolder
+com/devco/singhal/ConfirmOrder.java
+ com.devco.singhal.ConfirmOrder
+ com.devco.singhal.ConfirmOrder$1
+com/devco/singhal/Profile.java
+ com.devco.singhal.Profile
+ com.devco.singhal.Profile$1
+com/devco/singhal/models/Users.java
+ com.devco.singhal.models.Users
+com/devco/singhal/tools/CustomToast.java
+ com.devco.singhal.tools.CustomToast
+com/devco/singhal/models/ModelCart.java
+ com.devco.singhal.models.ModelCart
+com/devco/singhal/PendingOrderFrag.java
+ com.devco.singhal.PendingOrderFrag
+ com.devco.singhal.PendingOrderFrag$1
+com/devco/singhal/adapters/SliderAdapter.java
+ com.devco.singhal.adapters.SliderAdapter
+ com.devco.singhal.adapters.SliderAdapter$SliderAdapterVH
+com/devco/singhal/FilteredFragment.java
+ com.devco.singhal.FilteredFragment
+ com.devco.singhal.FilteredFragment$1
+com/devco/singhal/Login.java
+ com.devco.singhal.Login
+ com.devco.singhal.Login$1
+ com.devco.singhal.Login$2
+com/devco/singhal/adapters/ProductsAdapter.java
+ com.devco.singhal.adapters.ProductsAdapter
+ com.devco.singhal.adapters.ProductsAdapter$ViewHolder
+com/devco/singhal/Register.java
+ com.devco.singhal.Register
+com/devco/singhal/viewholders/CartViewHolder.java
+ com.devco.singhal.viewholders.CartViewHolder
+com/devco/singhal/models/ModelService.java
+ com.devco.singhal.models.ModelService
+com/devco/singhal/AdminUserProducts.java
+ com.devco.singhal.AdminUserProducts
+ com.devco.singhal.AdminUserProducts$1
+com/devco/singhal/Home.java
+ com.devco.singhal.Home
+ com.devco.singhal.Home$1
+com/devco/singhal/ProductDetails.java
+ com.devco.singhal.ProductDetails
+ com.devco.singhal.ProductDetails$1
+ com.devco.singhal.ProductDetails$2
+ com.devco.singhal.ProductDetails$3
+com/devco/singhal/AdminNewOrders.java
+ com.devco.singhal.AdminNewOrders
+ com.devco.singhal.AdminNewOrders$1
+ com.devco.singhal.AdminNewOrders$1$1
+ com.devco.singhal.AdminNewOrders$2
+ com.devco.singhal.AdminNewOrders$AdminOrdersViewHolder
+com/devco/singhal/tools/Liked.java
+ com.devco.singhal.tools.Liked
+ com.devco.singhal.tools.Liked$1
+ com.devco.singhal.tools.Liked$2
+com/devco/singhal/interfaces/ItemClickListner.java
+ com.devco.singhal.interfaces.ItemClickListner
+com/devco/singhal/models/AdminOrders.java
+ com.devco.singhal.models.AdminOrders
+com/devco/singhal/AdminProductAdd.java
+ com.devco.singhal.AdminProductAdd
+ com.devco.singhal.AdminProductAdd$1
+com/devco/singhal/ServiceContact.java
+ com.devco.singhal.ServiceContact
+ com.devco.singhal.ServiceContact$1
+com/devco/singhal/EditProduct.java
+ com.devco.singhal.EditProduct
+ com.devco.singhal.EditProduct$1
+ com.devco.singhal.EditProduct$2
+com/devco/singhal/Cart.java
+ com.devco.singhal.Cart
+ com.devco.singhal.Cart$1
+com/devco/singhal/AdminPanel.java
+ com.devco.singhal.AdminPanel
+com/devco/singhal/NewCategory.java
+ com.devco.singhal.NewCategory
+com/devco/singhal/Settings.java
+ com.devco.singhal.Settings
+com/devco/singhal/SavedProductsFrag.java
+ com.devco.singhal.SavedProductsFrag
+ com.devco.singhal.SavedProductsFrag$1
+com/devco/singhal/tools/Empty.java
+ com.devco.singhal.tools.Empty
+com/devco/singhal/tools/RecentViewed.java
+ com.devco.singhal.tools.RecentViewed
+com/devco/singhal/OTP.java
+ com.devco.singhal.OTP
+ com.devco.singhal.OTP$1
+com/devco/singhal/BuildConfig.java
+ com.devco.singhal.BuildConfig

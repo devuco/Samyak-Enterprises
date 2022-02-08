@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.baoyachi:StepView:1.9@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6953eba53b0e90e05da7def7a3f31c8a/jetified-StepView-1.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6953eba53b0e90e05da7def7a3f31c8a/jetified-StepView-1.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6953eba53b0e90e05da7def7a3f31c8a/jetified-StepView-1.9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e50bf45fb832098344e09c2420a99da7/jetified-StepView-1.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e50bf45fb832098344e09c2420a99da7/jetified-StepView-1.9/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e50bf45fb832098344e09c2420a99da7/jetified-StepView-1.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/20225a524f176ad665038ecf9033785c/jetified-StepView-1.9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/20225a524f176ad665038ecf9033785c/jetified-StepView-1.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/20225a524f176ad665038ecf9033785c/jetified-StepView-1.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b858c690e7ddb911f01b1e4a02e4e9dc/jetified-StepView-1.9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b858c690e7ddb911f01b1e4a02e4e9dc/jetified-StepView-1.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b858c690e7ddb911f01b1e4a02e4e9dc/jetified-StepView-1.9/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8fce4e58ee0fc70f41d0405a9d386efe/transformed/jetified-StepView-1.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8fce4e58ee0fc70f41d0405a9d386efe/transformed/jetified-StepView-1.9/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8fce4e58ee0fc70f41d0405a9d386efe/transformed/jetified-StepView-1.9/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.baoyachi/StepView/1.9/f19f4add5f76af862dd45371dc17a1fecebf43dd/StepView-1.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

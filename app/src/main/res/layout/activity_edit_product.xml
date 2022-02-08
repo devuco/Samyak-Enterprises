@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProduct">
+
+    <ImageView
+        android:id="@+id/edit_image_select"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:cropToPadding="false"
+        android:src="@drawable/profile" />
+
+    <EditText
+        android:id="@+id/edit_productname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_image_select"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:hint="product name" />
+
+    <Spinner
+        android:id="@+id/edit_productcategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/edit_productname"
+        android:layout_alignLeft="@+id/edit_productname"
+        android:layout_alignRight="@+id/edit_productname"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/edit_productdes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_productcategory"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:hint="product Description" />
+
+    <EditText
+        android:id="@+id/edit_productprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_productdes"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:hint="product price" />
+
+    <Button
+        android:id="@+id/edit_addproduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_productprice"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:text="Update Product"
+        android:textSize="18sp" />
+
+</RelativeLayout>

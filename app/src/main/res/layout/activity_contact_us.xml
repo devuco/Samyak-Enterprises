@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".ContactUs">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/side_nav_bar">
+
+            <ImageView
+                android:id="@+id/ankitimage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:contentDescription="TODO"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ankit_jain" />
+
+            <TextView
+                android:id="@+id/ankitjaintxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/ankitimage"
+                android:text="Ankit Jain"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ankitjaincontact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ankitjaintxt"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/ankitimage"
+                android:text="Owner\nContact : 9770060032\n9826350176"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear1"
+            android:layout_margin="10dp"
+            android:background="@drawable/side_nav_bar"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ajayimage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ajay_agrawal" />
+
+            <TextView
+                android:id="@+id/ajaytxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/ajayimage"
+                android:text="Ajay Agrawal"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ajaycontact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ajaytxt"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/ajayimage"
+                android:text="Owner\nContact : 9425062504"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/shop_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear2"
+            android:layout_margin="10dp"
+            android:text="Address"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/shop_photo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/shop_address"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/shop_photo" />
+
+
+        <TextView
+            android:id="@+id/shop_address_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/shop_photo"
+            android:layout_margin="10dp"
+            android:text="623, Greater Brajeshwari, NSC Pride, Near Agrawal Public School, Indore"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shop_address_1"
+            android:layout_margin="10dp"
+            android:text="Location"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/location"
+            android:layout_margin="10dp"
+            android:foregroundGravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/map" />
+
+        <RelativeLayout
+            android:id="@+id/whatsapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/map"
+            android:layout_margin="10dp"
+            android:background="#25D366">
+
+            <ImageView
+                android:id="@+id/whatsappicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/whatsapptxt"
+                android:backgroundTint="#000"
+                android:src="@drawable/whatsapp_icon_36" />
+
+            <TextView
+                android:id="@+id/whatsapptxt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="Contact on Whatsapp"
+                android:textColor="#000"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

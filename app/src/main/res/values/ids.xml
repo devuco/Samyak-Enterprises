@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="rl4" type="id" />
+    <item name="user_order_total_price" type="id" />
+    <item name="user_order_state" type="id" />
+    <item name="user_order_address_city" type="id" />
+    <item name="user_order_date_time" type="id" />
+    <item name="user_order_transport" type="id" />
+    <item name="user_order_LRno" type="id" />
+    <item name="user_order_show_button" type="id" />
+    <item name="empty_order" type="id" />
+</resources>

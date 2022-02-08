@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmOrder">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/Coninuepayment">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/shipping_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:text="Shipping Details"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/shipname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shipping_details"
+                android:layout_margin="20dp"
+                android:background="@drawable/edit_text_shape"
+                android:gravity="center"
+                android:hint="Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/shipcompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shipname"
+                android:layout_margin="20dp"
+                android:background="@drawable/edit_text_shape"
+                android:gravity="center"
+                android:hint="Company"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/shipphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shipcompany"
+                android:layout_margin="20dp"
+                android:background="@drawable/edit_text_shape"
+                android:gravity="center"
+                android:hint="Phone Number"
+                android:inputType="phone" />
+
+
+            <EditText
+                android:id="@+id/shipaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shipphone"
+                android:layout_margin="20dp"
+                android:background="@drawable/edit_text_shape"
+                android:gravity="center"
+                android:hint="Address" />
+
+
+            <EditText
+                android:id="@+id/shipcity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shipaddress"
+                android:layout_margin="20dp"
+                android:background="@drawable/edit_text_shape"
+                android:gravity="center"
+                android:hint="City"
+                android:inputType="" />
+
+
+            <EditText
+                android:id="@+id/shiptransport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shipcity"
+                android:layout_margin="20dp"
+                android:background="@drawable/edit_text_shape"
+                android:gravity="center"
+                android:hint="Transport"
+                android:inputType="" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/Coninuepayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Place Order"
+        android:textColor="#fff" />
+</RelativeLayout>
